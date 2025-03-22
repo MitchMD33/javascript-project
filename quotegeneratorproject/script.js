@@ -5,6 +5,10 @@ const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
 const loader = document.getElementById('loader')
 
+fn load() {
+  console.log(load);
+}
+
 
 let apiQuotes = [];
 //show loading 
